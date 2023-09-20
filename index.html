@@ -17,8 +17,9 @@
 			<div class="card-body">
 				<h1>Simon Says</h1>
 				<h3>Istruzioni:</h3>
-				<h6>1. </h6>
-				<h6>2. </h6>
+				<h6>1. Memorizza i 5 numeri che apparirano per 5 secondi sullo schermo.</h6>
+				<h6>2. Inserisci uno per uno i numeri che ti ricordi.</h6>
+				<h6>3. In fine apparirà sullo schermo il risultato.</h6>
 				<button id="start-btn" class="btn btn-outline-success">Start</button>
 			</div>
 		</div>
@@ -31,10 +32,20 @@
 	
 			</div>
 		</div>
-		<div class="card my-5  ">
+
+		<div id="card-numeri-inseriti"  class="card my-5  d-none">
+			<div class="card-body ">
+
+				
+			
+				<button id="send-btn" class="btn btn-outline-success">Invia</button>
+			</div>
+		</div>
+
+		<div id="card-risultato" class="card my-5 d-none">
 			<div class="card-body">
 
-				<h3>Risultato:</h3>
+				<h3 id="risultato"></h3>
 	
 			</div>
 		</div>
